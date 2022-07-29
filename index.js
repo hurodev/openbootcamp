@@ -1,9 +1,7 @@
-const lista = {
-    nombre : 'Hugo Romero',
-    edad : 33,
-    eresDesarrollador : true,
-    fechaNacimiento : new Date(1989,03,18),
-    libroFavorito : ['El club de las 5am','Robin Sharma','4 de diciembre de 2018']
+let nota = 5;
+
+if(nota === 5){
+    console.log('sacaste 5');
 }
 
-console.log(lista)
+console.log(nota)
