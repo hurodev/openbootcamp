@@ -1,7 +1,5 @@
-let nota = 5;
+nombre = 'Hugo'
+apellido = 'Romero'
 
-if(nota === 5){
-    console.log('sacaste 5');
-}
 
-console.log(nota)
+console.log(`hola como estas ${nombre} ${apellido}`)

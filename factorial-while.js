@@ -1,10 +1,10 @@
 let resultado = 1;
-let i = 1;
+let num = 1;
 
-while(i <= 5 ){
-    resultado =  resultado * i;
+while(num <= 5 ){
+    resultado =  resultado * num;
 
-    ++i;
+    ++num;
 
 }
 
