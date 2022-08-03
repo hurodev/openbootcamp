@@ -1,5 +1,9 @@
 miNombre = "Hugo";
 miApellido = "Romero";
-estudiante = miNombre + miApellido;
-
-console.log(estudiante);
+estudiante = miNombre + " " + miApellido;
+estudianteMayus = estudiante.toUpperCase();
+estudianteMinus = estudiante.toLowerCase();
+estudianteLen = estudiante.length;
+estudianteFirst = miNombre.charAt();
+estudianteEnd = miApellido.charAt(miApellido.length - 1);
+estudianteSin = estudiante.replace(/ /g, "");
